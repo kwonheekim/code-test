@@ -23,5 +23,6 @@ let map = new Map();
 for (let i = 0; i < uniqueArr.length; i++) {
     map.set(uniqueArr[i], i);
 }
+console.log(map);
 let result = arr.map(v => map.get(v));
 console.log(result);
