@@ -41,7 +41,6 @@ function solution(priorities, location) {
 
     while(temp.length > 0) {
         max = Math.max(...temp);
-        
         console.log(temp, 'temp');  
 
         if(temp[0] !== max) {
