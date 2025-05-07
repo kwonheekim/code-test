@@ -29,6 +29,7 @@ console.log(m, "m");
 
 let start = 1;
 let end = arr.reduce((a, b) => Math.max(a, b)); // arr의 최대값
+console.log(end, "end"); // arr의 최대값
 let result = 0;
 while (start <= end) {
   let middle = parseInt((start + end) / 2); // 중간 인덱스
@@ -37,6 +38,7 @@ while (start <= end) {
   for (x of arr) {
     total += Math.min(middle, x);
   }
+  console.log(total, "total");
   if (total <= m) {
     result = middle; // 상한액
     start = middle + 1; // 오른쪽 탐색
