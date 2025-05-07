@@ -1,0 +1,8 @@
+7
+roga 1 1
+rase 0 1
+poru 0 1
+gipa 0 1
+dego 3 0
+bego 3 0
+nego 3 0
